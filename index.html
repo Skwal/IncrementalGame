@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<section id="resource">
+    <h4>Resource</h4>
+    <ul>
+        <li class="resource">bananas: <var id="bananas">0</var></li>
+        <li class="resource">coconuts: <var id="coconuts">0</var></li>
+        <li class="resource">wood: <var id="wood">0</var></li>
+    </ul>
+</section>
+
+<section id="actions">
+    <h4>Actions</h4>
+    <div class="button visible" id="shakeTree">Shake a tree</div>
+</section>
+
+<section id="craft">
+    <h4>Craft</h4>
+    <div class="button" id="bananaPickerButton">Banana Picker</div>
+</section>
+
+<section id="logs">
+    <h4>Logs</h4>
+    <a href="javascript:;" id="resetLogs">Reset logs</a>
+    <div class="logs">
+        You're on a desert island...
+    </div>
+</section>
+
+
+<script type="text/javascript">
+Game.init();
+</script>
+
+</body>
+</html>

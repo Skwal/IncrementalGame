@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.resource {
+    display: none;
+}
+
+.button {
+    display: none;
+    width: 150px;
+    padding: 3px 0;
+    text-align: center;
+    border: 1px solid #333;
+    cursor: pointer;
+    color: #333;
+}
+
+.visible {
+    display: block;
+}
+
+.disabled {
+    border-color: #888;
+    color: #888;
+    cursor: normal;
+}
